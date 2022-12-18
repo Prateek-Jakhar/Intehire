@@ -19,10 +19,10 @@ const Applications = () => {
     const querySnapshot = await getDocs(collection(db, "applications"));
     let data_list = [];
     const userMail = localStorage.getItem("usermail");
-    const querySnapshot2 = await getDoc(doc(db, "people", userMail))
+    const querySnapshot2 = await getDoc(doc(db, "people", userMail));
     const applications = querySnapshot2.data().applications;
     querySnapshot.forEach((doc) => {
-      if(applications.includes(doc.data().id)){
+      if (applications.includes(doc.data().id)) {
         data_list.push(doc.data());
       }
     });

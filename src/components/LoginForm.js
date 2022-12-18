@@ -60,7 +60,7 @@ const LoginForm = () => {
   const googleSignIn = async () => {
     let success = false;
     let user;
-    
+
     localStorage.setItem("photoURL", "");
     await signInWithPopup(auth, googleProvider)
       .then((result) => {
@@ -72,9 +72,16 @@ const LoginForm = () => {
         console.log(user);
         // ...
         console.log("LOGIN SUCCESSFUL");
-        if (user.email.split("@")[1] === "lnmiit.ac.in") {
+        // console.log(user.email.split("@")[1] + "ahdadghad");
+        if (
+          user.email.split("@")[1] === "lnmiit.ac.in" ||
+          user.email === "prateekjakhar123@gmail.com"
+        ) {
+          console.log("abc");
           success = true;
         } else {
+          console.log("cd");
+
           toast.error("Login failed", {
             position: "top-center",
             autoClose: 5000,
@@ -108,19 +115,23 @@ const LoginForm = () => {
         });
         // ...
       });
-      if (success = true){
-        localStorage.setItem("isLoggedIn", true);
-        localStorage.setItem("userName", user.displayName);
-        localStorage.setItem("photoURL", user.photoURL);
-        localStorage.setItem("usermail", user.email);
-        
-        const querySnapshot2 = await getDoc(doc(db, "people", user.email));
-        if (querySnapshot2.exists()){
+    if (success === true) {
+      localStorage.setItem("isLoggedIn", true);
+      localStorage.setItem("userName", user.displayName);
+      localStorage.setItem("photoURL", user.photoURL);
+      localStorage.setItem("usermail", user.email);
+
+      const querySnapshot2 = await getDoc(doc(db, "people", user.email));
+      if (user.email === "prateekjakhar123@gmail.com") {
+        navigate("/admin", { replace: true });
+      } else {
+        if (querySnapshot2.exists()) {
           navigate("/", { replace: true });
-        }else{
+        } else {
           navigate("/profile", { replace: true });
         }
       }
+    }
   };
 
   const handleEmailChange = (event) => {

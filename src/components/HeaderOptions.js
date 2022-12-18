@@ -12,6 +12,7 @@ import tests from "../assets/practice-tests.png";
 import Opportunity from "../assets/Opportunity.png";
 import application from "../assets/Applications.png";
 import offer from "../assets/Offers.png";
+import offCampus from "../assets/off.png";
 import resume from "../assets/Resume.png";
 
 const HeaderOptions = () => {
@@ -81,7 +82,7 @@ const HeaderOptions = () => {
       </Link>
       <Link to={"/offcampus"}>
         <div classname="Resume" style={{ marginLeft: "-90px" }}>
-          <img classname="image" src={resume} alt="" />
+          <img classname="image" src={offCampus} alt="" />
           <span className="header-button">OffCampus</span>
         </div>
       </Link>

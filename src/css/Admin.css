@@ -1,0 +1,39 @@
+.mainProfile {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  background-color: #fcfcf5;
+}
+.profileRight {
+  margin: 150px 150px 0 auto;
+}
+.profileRight > img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.button {
+  height: 50px;
+  width: 250px;
+  background: #41337a;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: -15px;
+  margin-left: 140px;
+  color: white;
+  cursor: pointer;
+}
+
+.inputs {
+  height: 40px;
+  width: 348px;
+  margin-top: 10px;
+  border-radius: 5px;
+}

@@ -16,6 +16,7 @@ import SubmitExperience from "./components/SubmitExperience";
 import Profile from "./components/Profile";
 import { UserContainer, UserContext } from "./components/NameContext";
 import OffCampus from "./components/OffCampus";
+import Admin from "./components/Admin";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/submitExp/:forum_id" element={<SubmitExperience />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/offcampus" element={<OffCampus />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </BrowserRouter>
     </div>

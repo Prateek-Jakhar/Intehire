@@ -59,7 +59,7 @@ const Dashboard = () => {
       <div className="dashboardMainRight">
         <div className="mainTop"></div>
         <div className="mainMiddle">
-          <NewOpportunityCardTop />
+          {/* <NewOpportunityCardTop /> */}
           {/* <NewOpportunityCardTop /> */}
         </div>
         <div className="mainSecondMiddle">
