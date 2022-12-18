@@ -1,0 +1,44 @@
+.forumMain {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfcf5;
+}
+
+.forumMainRight {
+  margin-left: 32px;
+}
+.number-of-responses {
+  width: 102px;
+  height: 26px;
+  margin-left: 36px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  /* identical to box height */
+
+  /* text */
+
+  color: #232c33;
+}
+
+.forumButton {
+  display: flex;
+  justify-content: space-around;
+}
+
+.submit-button {
+  height: 50px;
+  width: 248px;
+  background: #41337a;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  cursor: pointer;
+  margin-left: 40px;
+}

@@ -1,0 +1,9 @@
+.opportunityMain {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfcf5;
+}
+
+.opportunityMainRight {
+  margin-left: 32px;
+}

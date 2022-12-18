@@ -1,0 +1,27 @@
+.buttonDesignDiscover {
+  /* position: absolute; */
+  width: 192px;
+  height: 36px;
+  left: 476px;
+  color: white;
+  padding-top: 7px;
+  font-size: 18px;
+  background: #41337a;
+  border-radius: 34px;
+  cursor: pointer;
+}
+
+.buttonDesignFeed {
+  position: absolute;
+  width: 192px;
+  cursor: pointer;
+  height: 36px;
+  left: 260px;
+  color: #41337a;
+  padding-top: 5px;
+  background: #fcfcf5;
+  font-size: 18px;
+  border: 1px solid #41337a;
+  box-sizing: border-box;
+  border-radius: 34px;
+}

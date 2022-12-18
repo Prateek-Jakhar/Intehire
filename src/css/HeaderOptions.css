@@ -1,0 +1,63 @@
+/* .menu {
+  position: static;
+  margin-top: 102 px;
+  width: 228px;
+}
+#images {
+  margin-right: 25px;
+}
+.header-button {
+  width: 105 px;
+  height: 22px;
+  left: 66px;
+  top: 288px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 58px;
+  color: #232c33;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-top: 15px;
+  left: 28.95%;
+  right: 35.96%;
+  top: 12.38%;
+  bottom: 85.46%;
+
+  font-family: "Nunito";
+  font-style: normal;
+}
+.Dashboard {
+  position: flex;
+} */
+.menu {
+  position: static;
+  margin-top: 102 px;
+  width: 228px;
+}
+#images {
+  margin-right: 25px;
+}
+.header-button {
+  cursor: pointer;
+  width: 105 px;
+  height: 22px;
+  left: 66px;
+  top: 288px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 58px;
+  color: #232c33;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-top: 15px;
+  left: 28.95%;
+  right: 35.96%;
+  top: 12.38%;
+  bottom: 85.46%;
+
+  font-family: 'Noto Sans Georgian', sans-serif;
+  font-style: normal;
+}
+.Dashboard {
+  position: flex;
+}

@@ -1,0 +1,44 @@
+.main-leftHeader {
+  position: static;
+  width: 228px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  display: flex;
+  /* flex-direction: r; */
+}
+
+#name {
+  position: absolute;
+  width: 103px;
+  height: fit-content;
+  left: 86px;
+  top: 41px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: -7px;
+  margin-left: 11px;
+  color: #232c33;
+}
+.main-inner-leftheader{
+  align-items: center;
+  justify-content: center;
+}
+
+.main-logo {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 6rem;
+}
+
+.header-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option1 {
+  margin-top: 100px;
+  margin-left: -61px;
+}

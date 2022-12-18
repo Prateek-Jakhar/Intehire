@@ -1,0 +1,124 @@
+.response-card {
+  padding: 1rem;
+  position: relative;
+  width: 1144px;
+  margin-left: 32px;
+  background: #ffffff;
+  /* s1 */
+
+  box-shadow: 4px 4px 18px 1px rgba(41, 88, 128, 0.15);
+  border-radius: 12px;
+}
+.student-details-response {
+  display: flex;
+  align-items: left;
+  margin-left: 24px;
+}
+
+.student-pic-response {
+  width: 42px;
+  height: 42px;
+  border-radius: 24px;
+}
+.student-response {
+  margin-left: 10px;
+}
+.name-response {
+  width: 200px;
+  height: 26px;
+  margin-left: -35px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  color: #41337a;
+}
+
+.date-of-response {
+  width: 58px;
+  height: 16px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* text */
+
+  color: #232c33;
+
+  opacity: 0.6;
+}
+.first-question {
+  width: 326px;
+  height: 22px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* text */
+
+  color: #232c33;
+}
+.questions {
+  margin-top: 50px;
+  margin-left: 24px;
+  text-align: left;
+}
+
+.first-answer {
+  width: 1096px;
+  height: 19px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* text */
+
+  color: #232c33;
+
+  opacity: 0.6;
+}
+
+.second-question {
+  width: 694px;
+  height: 22px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* text */
+
+  color: #232c33;
+}
+
+.second-answer {
+  width: 1096px;
+  height: 38px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* text */
+
+  color: #232c33;
+
+  opacity: 0.6;
+}

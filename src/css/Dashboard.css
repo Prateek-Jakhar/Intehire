@@ -1,0 +1,22 @@
+.dashboardMain {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfcf5;
+}
+
+.dashboardMainRight {
+  position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin-left: 32px;
+}
+
+.mainTop {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: flex-start; */
+  width: 1212px;
+  height: 94px;
+  margin-top: 40px;
+  margin-bottom: -28px;
+}

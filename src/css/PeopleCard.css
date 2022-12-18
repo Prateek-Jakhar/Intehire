@@ -1,0 +1,109 @@
+.main {
+    margin: 50px 50px;
+    /* position: absolute; */
+    width: 300px;
+    height: 182px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    box-shadow: 4px 4px 18px 1px rgba(41, 88, 128, 0.15);
+    border-radius: 25px;
+}
+
+.student-details {
+    margin-top: 30px;
+    margin-left: 65px;
+    text-align: center;
+}
+
+.student-name {
+
+    width: 300px;
+    height: 25px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    /* primary */
+
+    color: #41337A;
+
+}
+
+.branch {
+
+    width: 300px;
+    height: 19px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* text */
+    color: #232C33;
+}
+
+.batch {
+    width: 300px;
+    height: 16px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* text */
+
+    color: #232C33;
+
+    opacity: 0.6;
+}
+
+.photo {
+    margin-left: 30px;
+    margin-right: 700px;
+    margin-top: -80px;
+    margin-bottom: 40px;
+
+
+
+
+}
+
+.msg-bottom {
+    background-color: #41337A;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    height: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.Message-button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #FCFCF5;
+}
+.Message-bottom-label{
+    font-size: x-large;
+    text-align: center;
+    margin-left: 75px;
+}

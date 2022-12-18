@@ -1,0 +1,39 @@
+.profile-button {
+  cursor: pointer;
+  width: 335px;
+  height: 58px;
+  margin-top: 34px;
+
+  display: flex;
+  /* primary */
+  background: #41337a;
+  border-radius: 14px 14px 0 0;
+}
+
+.profile-name {
+  width: 80px;
+  height: 18px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 22px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  /* bg */
+  color: #fcfcf5;
+}
+
+.profile-button > img {
+  width: 36px;
+  height: 36px;
+  margin-left: 6px;
+  margin-top: 6px;
+  border-radius: 10px;
+}
+
+.profile-image {
+  margin-left: 200px;
+}

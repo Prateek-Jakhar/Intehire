@@ -1,0 +1,14 @@
+.peopleButton {
+  position: absolute;
+  width: 114px;
+  height: 32px;
+  left: 260px;
+  color: #41337a;
+  padding-top: 5px;
+  background: #fcfcf5;
+  font-size: 18px;
+  border: 1px solid #41337a;
+  box-sizing: border-box;
+  border-radius: 34px;
+  font-weight: 200;
+}

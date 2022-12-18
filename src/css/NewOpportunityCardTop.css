@@ -1,0 +1,64 @@
+.main-new {
+  /* margin: 50px 50px; */
+  /* position: absolute; */
+  width: 896px;
+  height: 146px;
+  left: 0px;
+  top: 0px;
+  background: #41337a;
+  opacity: 0.8;
+  box-shadow: 4px 4px 18px rgba(41, 88, 128, 0.15);
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  color: #fcfcf5;
+}
+.opportunity-heading {
+  margin-top: 15px;
+  font-weight: 700;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.remove-button {
+  position: absolute;
+  margin-top: 10px;
+  width: 82px;
+  height: 22px;
+  left: 790px;
+  background: #fcfcf5;
+  opacity: 0.3;
+  border-radius: 16px;
+  color: #d7263d;
+  font-weight: bold;
+}
+
+.sub-heading {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  color: #fcfcf5;
+}
+
+.company-details {
+  /* display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+   */
+
+  width: 848px;
+  height: 76px;
+  text-align: justify;
+  left: 24px;
+  margin-left: 25px;
+  top: 58px;
+  color: #fcfcf5;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}

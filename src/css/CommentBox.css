@@ -1,0 +1,46 @@
+.comment-block{
+    display: flex;
+}
+.comment-box{
+position: static;
+width: 1078px;
+height: 144px;
+margin-top: 24px;
+margin-top: 15px;
+background: #FFFFFF;
+box-shadow: 4px 4px 18px 1px rgba(41, 88, 128, 0.15);
+border-radius: 12px;
+}
+.image{
+    position: static;
+    width: 42px;
+    height: 42px;
+    margin-left: 36px;
+    top: 542px;
+    margin-right:15px;
+    margin-top: 15px;
+    
+    
+    border-radius: 24px;
+}
+.free-space{
+    /* position: absolute; */
+width: 111px;
+height: 19px;
+left: 338px;
+top: 550px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* text */
+
+color: #232C33;
+
+opacity: 0.5;
+}

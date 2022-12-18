@@ -1,0 +1,78 @@
+.main-applications {
+  background: #fcfcf5;
+  margin-left: 32px;
+}
+
+.application-header {
+  width: 95%;
+  height: 94px;
+  left: calc(50% - 1440px / 2);
+  top: 0px;
+  display: flex;
+  background: #fcfcf5;
+  position: sticky;
+}
+
+.on-campus {
+  position: absolute;
+  width: 103px;
+  height: 26px;
+  left: 32px;
+  top: 45px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  /* identical to box height */
+
+  /* primary */
+
+  color: #41337a;
+}
+
+.apply-filters {
+  width: 150px;
+  height: 22px;
+  margin-left: 764px;
+  margin-top: 51px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  /* text */
+
+  color: #232c33;
+}
+
+.finish {
+  margin-left: 300px;
+  position: absolute;
+  width: 215px;
+  height: 26px;
+  left: 372px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  /* identical to box height */
+
+  /* text */
+
+  color: #232c33;
+  background: #fcfcf5;
+  opacity: 0.5;
+}
+
+.applicationMain {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfcf5;
+}

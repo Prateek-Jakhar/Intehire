@@ -1,0 +1,16 @@
+.LogoutMenu {
+  font-size: 25px;
+  background-color: #41337a;
+
+  padding: 25px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0 0 14px 14px;
+  margin-top: -40px;
+}
+.LogoutMenu button {
+  cursor: pointer;
+  border-radius: 14px;
+}

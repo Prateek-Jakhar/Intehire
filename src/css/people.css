@@ -1,0 +1,9 @@
+.peopleMain {
+  display: flex;
+  flex-direction: row;
+  background-color: #e5e5e5;
+}
+
+.peopleMainTop {
+  display: inline;
+}

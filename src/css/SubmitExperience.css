@@ -1,0 +1,32 @@
+.Form {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: bold;
+}
+.radio {
+  margin: 0 10px 0 50px;
+}
+textarea {
+  border: 2px solid #999;
+  border-radius: 15px;
+  padding: 10px;
+}
+.btn {
+  width: 35%;
+  margin: auto;
+}
+button {
+  height: 50px;
+  width: 280px;
+  background: #41337a;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  cursor: pointer;
+}

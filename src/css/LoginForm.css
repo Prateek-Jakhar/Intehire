@@ -1,0 +1,115 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+#logoImage {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-google {
+  width: 164px;
+  height: 150px;
+  color: #232c33;
+  background-color: #f7f7f8;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.inputs {
+  height: 130px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inp {
+  height: 50px;
+  width: 348px;
+}
+
+.inp-password {
+  height: 50px;
+  width: 348px;
+}
+
+#login {
+  width: 349px;
+  height: 50px;
+  margin-top: 30px;
+  background: #f7f7f8;
+  border-radius: 10px;
+  border: 1px solid #f7f7f8;
+}
+
+.check {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  width: 348px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#spanForgotPassword {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #d7263d;
+  cursor: pointer;
+}
+
+.container > button {
+  height: 50px;
+  width: 348px;
+  background: #41337a;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+.bottom-div {
+  margin-top: 30px;
+}
+.newAccount {
+  display: inline;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+
+.createAcc {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #41337a;
+}
