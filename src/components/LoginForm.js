@@ -208,7 +208,7 @@ const LoginForm = () => {
             />
           </div>
 
-          <div className="check">
+          <div className="check" style={{ marginTop: "81px" }}>
             <div>
               <input type="checkbox" />
               <span style={{ marginLeft: "5px" }}>Remember me</span>
