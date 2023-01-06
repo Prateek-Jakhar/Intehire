@@ -17,6 +17,7 @@ import Profile from "./components/Profile";
 import { UserContainer, UserContext } from "./components/NameContext";
 import OffCampus from "./components/OffCampus";
 import Admin from "./components/Admin";
+import AdminForumUpload from "./components/AdminForumUpload";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/offcampus" element={<OffCampus />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/adminforumupload" element={<AdminForumUpload />} />
         </Routes>
       </BrowserRouter>
     </div>

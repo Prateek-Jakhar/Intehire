@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "../css/Admin.css";
 import { collection, getDoc, setDoc, doc, addDoc } from "firebase/firestore";
 import { db } from "./Firebase";
+import randomstring from "random-string";
+import ProfileButton from "./ProfileButton";
+
 // import { toast, ToastContainer } from "react-toastify";
 // import LeftHeader from "./LeftHeader";
 // import ProfileButton from "./ProfileButton";
@@ -11,6 +14,7 @@ const Admin = () => {
     roleTitle: "",
     jobType: "",
     stipend: "",
+    id: "",
     cse: false,
     cce: false,
     ece: false,
@@ -41,15 +45,14 @@ const Admin = () => {
       return {
         ...prevFormData,
         [name]: type === "checkbox" ? checked : value,
-        // e.target.name = e.target.value;
       };
     });
   }
 
-  // console.log(formData);
   async function sendOpportunityDetail(name, job_type, cgpa, stipend, array) {
     const date = new Date();
     const end_date = new Date();
+    var id = randomstring();
     end_date.setDate(date.getDate() + 1);
 
     try {
@@ -65,6 +68,7 @@ const Admin = () => {
         cse: formData.cse,
         me: formData.me,
         ece: formData.ece,
+        id: id,
       });
       // toast.success("Company Added Successfully");
       console.log("added");
@@ -75,7 +79,10 @@ const Admin = () => {
     }
   }
   return (
-    <div className="mainProfile">
+    <div className="mainAdminProfile">
+      <div style={{ position: "absolute", right: "50px", top: "1px" }}>
+        <ProfileButton />
+      </div>
       <div className="profileLeft" style={{ marginLeft: "480px" }}>
         <h1
           style={{

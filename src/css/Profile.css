@@ -1,12 +1,13 @@
 .mainProfile {
-  font-size: 22px;
+  /* font-size: 22px; */
   display: flex;
 
   flex-direction: row;
   background-color: #fcfcf5;
 }
 .profileRight {
-  margin: 150px 150px 0 auto;
+  /* margin: 150px 150px 0 auto; */
+  /* position: relative; */
 }
 .profileRight > img {
   border-radius: 50%;
